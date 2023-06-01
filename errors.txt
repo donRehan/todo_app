@@ -1,0 +1,15 @@
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+warning expo > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+warning expo > expo-constants > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+warning expo > expo-file-system > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+warning expo > @expo/cli > cacache > @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+warning react-native > @react-native-community/cli > @react-native-community/cli-plugin-metro > metro > metro-minify-uglify > uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
+warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+warning react-native > react-native-codegen > jscodeshift > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[2/4] 🚚  Fetching packages...
+error @jest/create-cache-key-function@29.5.0: The engine "node" is incompatible with this module. Expected version "^14.15.0 || ^16.10.0 || >=18.0.0". Got "16.9.0"
+error Found incompatible module.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
