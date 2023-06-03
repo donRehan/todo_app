@@ -7,3 +7,7 @@ error Found incompatible module.
 info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
 
 > Resolved by downloading from the site of node for mac the version 16.10.0
+
+## Xcode needs to be installed , when its already installed
+
+> Resolved by following the following thread https://developer.apple.com/forums/thread/678469
