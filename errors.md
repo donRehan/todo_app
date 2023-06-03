@@ -11,3 +11,40 @@ info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this comm
 ## Xcode needs to be installed , when its already installed
 
 > Resolved by following the following thread https://developer.apple.com/forums/thread/678469
+
+## Text Component error from react-native 
+ ERROR  Error: Text strings must be rendered within a <Text> component.
+
+This error is located at:
+    in $29383e587d62412a$export$9f8ac96af4b1b2ae (created by NativeBaseProvider)
+    in ToastProvider (created by NativeBaseProvider)
+    in PortalProvider (created by NativeBaseProvider)
+    in HybridProvider (created by NativeBaseProvider)
+    in ResponsiveQueryProvider (created by NativeBaseProvider)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by NativeBaseProvider)
+    in NativeBaseConfigProviderProvider (created by NativeBaseProvider)
+    in NativeBaseProvider (created by AppContainer)
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner (created by AppContainer)
+    in AppContainer (created by App)
+    in App (created by withDevTools(App))
+    in withDevTools(App)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent), js engine: hermes
+
+> After alot of research , turns out that this was the difference 
+> const config = {
+> -       useSystemColorMode: false,
+> -       initialColorMode: 'light',
+> +  useSystemColorMode: false,
+> +  initialColorMode: 'light'
+>  }
+> The colon at the end I suppose, thats the only difference I could find in my git diff after it magically
+> Worked

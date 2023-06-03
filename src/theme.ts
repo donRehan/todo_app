@@ -1,21 +1,23 @@
-import { extendTheme } from "native-base"
+import { extendTheme } from 'native-base'
 
 const config = {
-	useSystemColorMode: false,
-	initialColorMode: 'light',
+  useSystemColorMode: false,
+  initialColorMode: 'light'
 }
 
 const colors = {
-	50: '#EEF2F6',
-	100: '#D7E0EB',
-	200: '#BFCCE0',
-	300: '#A8B8D5',
-	400: '#91A4CA',
-	500: '#7A90BF',
-	600: '#627BA4',
-	700: '#4B5B7A',
-	800: '#343C50',
-	900: '#1D1F25'
+  primary: {
+    50: '#EEF2F6',
+    100: '#CFD9E7',
+    200: '#B1C1D8',
+    300: '#92A9C9',
+    400: '#7491B9',
+    500: '#5578AA',
+    600: '#446088',
+    700: '#334866',
+    800: '#223044',
+    900: '#111822'
+  }
 }
 
 export default extendTheme({ config, colors })
