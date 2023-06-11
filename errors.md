@@ -48,3 +48,6 @@ This error is located at:
 >  }
 > The colon at the end I suppose, thats the only difference I could find in my git diff after it magically
 > Worked
+
+## SVG custom made by the tutorial maker
+> Will be solved later ..
