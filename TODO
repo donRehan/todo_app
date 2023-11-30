@@ -1,0 +1,9 @@
+Errors met 
+[x] Be able to set up the environment from the github repo.
+	Simply check if its npm or yarn that set up the packages and then
+[x] *Set up expo to work with ios from your linux machine 
+	Somehow all online tutorials didn't show how until I just followed
+	the solution the error message showed which was to just update the
+	versions and then all of a sudden everything worked fine !
+
+Goals 
