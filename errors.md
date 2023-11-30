@@ -50,4 +50,12 @@ This error is located at:
 > Worked
 
 ## SVG custom made by the tutorial maker
-> Will be solved later ..
+
+> Used a normal checkbox for react native.
+> Find it below in this link
+> https://github.com/WrathChaos/react-native-bouncy-checkbox
+
+## Unable to develop for Ios on my linux machine 
+
+> Simply after doing yarn start a warning message about updating my version
+> for a couple of add ons , Updated and things worked fine.

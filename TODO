@@ -5,5 +5,14 @@ Errors met
 	Somehow all online tutorials didn't show how until I just followed
 	the solution the error message showed which was to just update the
 	versions and then all of a sudden everything worked fine !
+[x] Fix checkbox as am not able to create checkbox in this app yet.
+	Sovled using BouncyCheckbox 
+	https://github.com/WrathChaos/react-native-bouncy-checkbox
+[x] Add in errors the error 2 lines above
 
 Goals 
+
+[_] Create task item component
+	[_] Animate task label 
+[_] Clean code from unused code, Comment out and clean the code out
+[_] Document the way this app is created too ?

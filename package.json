@@ -21,6 +21,7 @@
     "primereact": "^10.2.1",
     "react": "18.2.0",
     "react-native": "0.71.14",
+    "react-native-bouncy-checkbox": "^3.0.7",
     "react-native-reanimated": "~2.14.4",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "^3.20.0",
