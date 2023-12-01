@@ -14,15 +14,13 @@ export default function MainScreen() {
 
 	return (
 		<Center _dark= {{ bg: 'blueGray.900' }} _light={{ bg: 'blueGray.50' }} px={4} flex={1}>
+			{/* Space is the space between the items in the stack vertically */}
 			<VStack space={5} alignItems="center">
-				<Box p={10} bg={useColorModeValue('red.500', 'yellow.500')}>
 					{/* May return this to false Since his implementation may be different than mine's*/}
 					<TaskItem isDone={checked} onToggleCheckbox={handlePressCheckBox}/>
-				</Box>
 				<Box p={10} bg={useColorModeValue('red.500', 'yellow.500')}>
 					<Text>Hello</Text>
 				</Box>
-				<BouncyCheckbox onPress={(isChecked: boolean) => {}} />
 				<ThemeToggle />
 			</VStack>
 		</Center>

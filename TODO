@@ -12,7 +12,5 @@ Errors met
 
 Goals 
 
-[_] Create task item component
-	[_] Animate task label 
-[_] Clean code from unused code, Comment out and clean the code out
-[_] Document the way this app is created too ?
+[_] When Button next to task item is pressed dim the task item 
+	[_] Only strike through the text no other animation to be aimed for
