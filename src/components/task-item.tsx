@@ -40,6 +40,7 @@ const TaskItem = (props: Props) => {
 			<Box width={30} height={30} mr={2}>
 				<BouncyCheckbox onPress={(isChecked: boolean) => {}} />
 			</Box>
+			{/* Check the place of the text element should be here or within the box above */}
 			<Text>Task item</Text>
 		</HStack>
 	)

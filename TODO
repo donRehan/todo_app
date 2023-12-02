@@ -14,3 +14,18 @@ Goals
 
 [_] When Button next to task item is pressed dim the task item 
 	[_] Only strike through the text no other animation to be aimed for
+
+STEPS DONE
+
+[_] animated-task-label
+	Create some variables AnimatedBox , HStack and Text.
+	[WD]-[~]
+	AnimatedTaskLabel (Strikethrough , textcolor , interactive textCo
+	lor , onpress and children)
+	[WD]-[~]
+	whole method returns 
+	(
+	Pressable ? 
+		AnimatedHStack 
+			AnimatedText with its children
+	)
